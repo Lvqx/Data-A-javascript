@@ -34,3 +34,12 @@ console.log('------1');
 //[ -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, undefined ]
 numbers.shift();
 console.log(numbers);
+console.log('------');
+
+//splice
+numbers.splice(5,3);//删除
+console.log(numbers);
+numbers.splice(5,0,2,3,4);//插入
+console.log(numbers);
+numbers.splice(5,3,1,1,1);//替换
+console.log(numbers);
